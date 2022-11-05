@@ -25,6 +25,7 @@ function AdminPanelButton({
     <Link href={href} passHref>
       <button
         {...rest}
+        title={label}
         className={clsx(
           "max-w-[288px] rounded-lg text-zinc-200 transition-colors duration-200 ease-in-out  enabled:hover:bg-green-900 disabled:cursor-not-allowed disabled:text-zinc-600",
           {
