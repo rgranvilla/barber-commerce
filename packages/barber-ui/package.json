@@ -1,5 +1,5 @@
 {
-  "name": "barber-ui",
+  "name": "@bc/barber-ui",
   "version": "0.1.0",
   "private": true,
   "scripts": {
