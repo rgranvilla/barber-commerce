@@ -9,6 +9,7 @@ export default {
     label: "Button",
     icon: <BsImages />,
     count: 1,
+    href: "/test",
   },
   argTypes: {
     icon: {
