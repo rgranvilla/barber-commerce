@@ -74,3 +74,21 @@ export const Disabled: StoryObj<AdminPanelButtonProps> = {
     count: 0,
   },
 };
+
+export const CompactUnselected: StoryObj<AdminPanelButtonProps> = {
+  args: {
+    label: "Inbox",
+    icon: <BsFillInboxFill />,
+    count: 0,
+    compact: true,
+  },
+};
+
+export const CompactSelected: StoryObj<AdminPanelButtonProps> = {
+  args: {
+    label: "Image Galery",
+    actived: true,
+    count: 0,
+    compact: true,
+  },
+};
