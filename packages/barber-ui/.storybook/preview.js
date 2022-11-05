@@ -12,4 +12,17 @@ export const parameters = {
   docs: {
     theme: themes.dark,
   },
+  backgrounds: {
+    default: "background",
+    values: [
+      {
+        name: "sidePanel",
+        value: "#27272a",
+      },
+      {
+        name: "background",
+        value: "#18181b",
+      },
+    ],
+  },
 };
