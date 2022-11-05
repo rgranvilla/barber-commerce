@@ -6,6 +6,7 @@ module.exports = {
     "@storybook/addon-interactions",
     "storybook-addon-themes",
     "@storybook/addon-backgrounds",
+    "@storybook/addon-a11y",
     "storybook-css-modules-preset",
     {
       /**

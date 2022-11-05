@@ -11,6 +11,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@storybook/addon-a11y": "^6.5.13",
     "@storybook/addon-backgrounds": "^6.5.13",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
